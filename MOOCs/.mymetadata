@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MOOCs"
+  id="myeclipse.1429679953073"
+  context-root="/MOOCs"
+  j2ee-spec="5.0"
+  archive="MOOCs.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+
+	 <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.a.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+	
+	 <servlet>
+        <servlet-name>teacherPwdServlet</servlet-name>
+        <servlet-class>com.a.servlet.TeacherPwdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>teacherPwdServlet</servlet-name>
+        <url-pattern>/teacherPwdServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>updateTeacherDetail</servlet-name>
+        <servlet-class>com.a.servlet.TeacherDetailServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>updateTeacherDetail</servlet-name>
+        <url-pattern>/updateTeacherDetail</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>TeacherListServlet</servlet-name>
+        <servlet-class>com.a.servlet.TeacherListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TeacherListServlet</servlet-name>
+        <url-pattern>/TeacherListServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>UserListServlet</servlet-name>
+        <servlet-class>com.a.servlet.UserListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserListServlet</servlet-name>
+        <url-pattern>/UserListServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>DelTeacherServlet</servlet-name>
+        <servlet-class>com.a.servlet.DelTeacherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DelTeacherServlet</servlet-name>
+        <url-pattern>/DelTeacherServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ArticleListServlet</servlet-name>
+        <servlet-class>com.a.servlet.ArticleListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ArticleListServlet</servlet-name>
+        <url-pattern>/ArticleListServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>DelUserServlet</servlet-name>
+        <servlet-class>com.a.servlet.DelUserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DelUserServlet</servlet-name>
+        <url-pattern>/DelUserServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <servlet-class>com.a.servlet.UserRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserRegisterServlet</servlet-name>
+        <url-pattern>/UserRegisterServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserPwdServlet</servlet-name>
+        <servlet-class>com.a.servlet.UserPwdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserPwdServlet</servlet-name>
+        <url-pattern>/UserPwdServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>com.a.servlet.AddUserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/AddUserServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>AddTeacherServlet</servlet-name>
+        <servlet-class>com.a.servlet.AddTeacherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddTeacherServlet</servlet-name>
+        <url-pattern>/AddTeacherServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>updateUserDetail</servlet-name>
+        <servlet-class>com.a.servlet.UserDetailServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>updateUserDetail</servlet-name>
+        <url-pattern>/updateUserDetail</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>AddCourseServlet</servlet-name>
+        <servlet-class>com.a.servlet.AddCourseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddCourseServlet</servlet-name>
+        <url-pattern>/AddCourseServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>CourseListServlet </servlet-name>
+        <servlet-class>com.a.servlet.CourseListServlet </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CourseListServlet </servlet-name>
+        <url-pattern>/CourseListServlet </url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>courseListServletpx</servlet-name>
+        <servlet-class>com.a.servlet.courseListServletpx</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>courseListServletpx</servlet-name>
+        <url-pattern>/courseListServletpx</url-pattern>
+    </servlet-mapping>
+	
+	
+	 <servlet>
+        <servlet-name>DelCourseServlet</servlet-name>
+        <servlet-class>com.a.servlet.DelCourseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DelCourseServlet</servlet-name>
+        <url-pattern>/DelCourseServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>SearchById</servlet-name>
+        <servlet-class>com.a.servlet.SearchById</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchById</servlet-name>
+        <url-pattern>/SearchById</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MoocServlet</servlet-name>
+        <servlet-class>com.a.servlet.MoocServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MoocServlet</servlet-name>
+        <url-pattern>/MoocServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>CourseModServlet</servlet-name>
+        <servlet-class>com.a.servlet.CourseModServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CourseModServlet</servlet-name>
+        <url-pattern>/CourseModServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MoocDetailServlet</servlet-name>
+        <servlet-class>com.a.servlet.MoocDetailServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MoocDetailServlet</servlet-name>
+        <url-pattern>/MoocDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddMycourseServlet</servlet-name>
+        <servlet-class>com.a.servlet.AddMycourseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddMycourseServlet</servlet-name>
+        <url-pattern>/AddMycourseServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MycourseCartServlet</servlet-name>
+        <servlet-class>com.a.servlet.MycourseCartServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MycourseCartServlet</servlet-name>
+        <url-pattern>/MycourseCartServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> CourseResearchServlet</servlet-name>
+        <servlet-class>com.a.servlet.CourseResearchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> CourseResearchServlet</servlet-name>
+        <url-pattern>/CourseResearchServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DelMycourseServlet</servlet-name>
+        <servlet-class>com.a.servlet.DelMycourseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DelMycourseServlet</servlet-name>
+        <url-pattern>/DelMycourseServlet</url-pattern>
+    </servlet-mapping>
+    
+  <welcome-file-list>
+    <welcome-file>onlylogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
